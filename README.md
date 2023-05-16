@@ -1,3 +1,6 @@
+
+# Example usage
+![examples](./assets/example.gif)
 # hyprland_window_switcher
 Simple Hyprland window switcher like "rofi -show window", because i cannot switch between window in Hyprland with "rofi -show window" while i in grouped (tabbed) windows. So, i create this one.
 
@@ -20,6 +23,3 @@ i put this script to `~/.config/hypr/scripts/hyprland_window_switcher` directory
 ```bash
 ~/.config/hypr/scripts/hyprland_window_switcher/hyprland_window_switcher.sh
 ```
-
-# Example usage
-![examples](./assets/example.gif)
