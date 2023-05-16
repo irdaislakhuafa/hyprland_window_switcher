@@ -1,6 +1,7 @@
 NOTHING_DO_MESSAGE="Nothing do."
 
-windows=`hyprctl clients -j | jq -r '.[] | "\(.address) | \(.class) \(.title)"'`
+format=`printf "\"\(.address) | \(.class) >> \(.title)\""`
+windows="$(hyprctl clients -j | jq -r ".[] | $format")"
 window=`echo "$windows" | rofi -dmenu -matching normal -i`
 if [ "$window" = "" ]; then
 	echo "$NOTHING_DO_MESSAGE"
