@@ -20,3 +20,9 @@ i put this script to `~/.config/hypr/scripts/hyprland_window_switcher` directory
 ```bash
 ~/.config/hypr/scripts/hyprland_window_switcher/hyprland_window_switcher.sh
 ```
+
+# Example usage
+<video width="640" height="360" controls>
+ <source src="./assets/example.mp4" type="video/mp4">
+	Your browser does not support the video type
+</video>
