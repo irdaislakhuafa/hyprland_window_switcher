@@ -5,7 +5,7 @@
 Simple Hyprland window switcher like "rofi -show window", because i cannot switch between window in Hyprland with "rofi -show window" while i in grouped (tabbed) windows. So, i create this one.
 
 # Dependencies
-This just shell script with some shell commands from other installed package in my Artix Linux system. Below is needed dependencies to use this shell script 
+This just shell script with some shell commands from other installed package in my Artix Linux system. Following are the dependencies to run this shell script 
 - [jq](https://stedolan.github.io/jq): Command-line JSON processor.
 - [rofi-lbonn-wayland-git](https://github.com/lbonn/rofi): A window switcher, application launcher and dmenu replacement (fork with Wayland support).
 - [hyprland-nvidia](https://github.com/hyprwm/Hyprland): I use nvidia card so i use `hyprland-nvidia`. You can use any `hyprland` version if you want.
